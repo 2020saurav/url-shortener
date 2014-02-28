@@ -3,7 +3,7 @@
 $record_no = $_GET['q'];
 # record number will be taken from auto incrementing id in mysql table
 # now we need to generate hash out of it (one to one)
-$n = $record_no;
+$n = $record_no+8765109944; #offset to get around 6 digit hash
 $hash = '';
 
 while($n>0)	#record_no will begin from 1
