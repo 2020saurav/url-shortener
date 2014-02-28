@@ -1,8 +1,8 @@
 <?php
-$dbHost = "mysql14.000webhost.com";
-$dbUser = "a7773326_admin";
+$dbHost = "mysql14.000webhost.com"; #using free server 000webhost
+$dbUser = "fakeusername";	#protecting db credentials for sake of uploading!
 $dbPass = "fakepassword";
-$dbDatabase = "a7773326_intern";
+$dbDatabase = "fakedbname";
  
 //connect to the database
  
